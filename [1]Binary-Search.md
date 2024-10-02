@@ -126,7 +126,7 @@
             if (a[mid] <= a[nxt] && a[mid] <= a[prev])
                 return a[mid]; // Return the minimum element
             else if (a[low] <= a[mid])
-                low = mid + 1;
+                low = low + 1;
             else if (a[high] <= a[mid])
                 high = mid - 1;
         }
